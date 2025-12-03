@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="Estilo-portafolio.css">
+
+    </head>
+    <body>
+
+            <div class="header-container">
+            <h1 class="main-logo">
+                <img src="Imagenes/SVG/SVG/Logo.svg" alt="">
+            </h1>
+
+            <div class="icon-group">
+
+            <a href="Sobremi.html" class="nav-item about-icon">
+                <figure>
+                <img src="Imagenes/SVG/icono-sobre.svg" alt="About">
+                <span>Sobre mi</span>
+                </figure>
+            </a>
+
+            <a href="Proyectos.html" class="nav-item work-icon">
+                <figure>
+                <img src="Imagenes/SVG/Icono-proyectos.svg" alt="Work">
+                <span>Proyectos</span>
+                </figure>
+            </a>
+
+            <a href="Contacto.html" class="nav-item archive-icon">
+                <figure>
+                <img src="Imagenes/SVG/icono-form.svg" alt="Archive">
+                <span>Contacto</span>
+                </figure>
+            </a>
+
+            <a href="menimo.ec@gmail.com" class="nav-item email-icon">
+                <figure>
+                <img src="Imagenes/SVG/icono-email.svg" alt="Email">
+                <span>email</span>
+                </figure>
+            </a>
+
+            <div class="nav-item mode-icon">
+            <span id="modeToggle" class="mode-switch">
+                <span>MODE: LIGHT</span>
+            </span>
+            </div>
+
+            </div>
+
+            </div>
+            
+
+        
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('modeToggle');
+            const body = document.body;
+
+            // 1. Cargar preferencia guardada (o asumir 'dark' si no hay)
+            const savedMode = localStorage.getItem('mode');
+            
+            // Función para aplicar o quitar el modo oscuro
+            function applyMode(isDarkMode) {
+                if (isDarkMode) {
+                    body.classList.add('dark-mode');
+                    toggleButton.querySelector('span').textContent = 'MODE: DARK';
+                } else {
+                    body.classList.remove('dark-mode');
+                    toggleButton.querySelector('span').textContent = 'MODE: LIGHT';
+                }
+            }
+
+            // APLICACIÓN DEL MODO INICIAL
+            // Si no hay preferencia guardada O si la preferencia es 'dark', aplicamos el modo oscuro.
+            if (savedMode === null || savedMode === 'dark') {
+                applyMode(true);
+                // Si es la primera vez que visita, guardamos 'dark' como defecto
+                if (savedMode === null) { 
+                    localStorage.setItem('mode', 'dark');
+                }
+            } else {
+                // Si la preferencia guardada es explícitamente 'light'
+                applyMode(false); 
+            }
+
+            // 2. Escuchar el clic para cambiar el modo
+            toggleButton.addEventListener('click', function() {
+                const isCurrentlyDark = body.classList.contains('dark-mode');
+                
+                // Alternar el modo
+                if (isCurrentlyDark) {
+                    applyMode(false);
+                    localStorage.setItem('mode', 'light');
+                } else {
+                    applyMode(true);
+                    localStorage.setItem('mode', 'dark');
+                }
+            });
+        });
+        </script>
+        
+    </body>
+</html>
