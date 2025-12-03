@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.51 17.94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5231f;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        fill: #bc1818;
+      }
+    </style>
+    <mask id="mask" x="-37.36" y="-36.64" width="93.12" height="91.2" maskUnits="userSpaceOnUse">
+      <image width="194" height="190" transform="translate(-37.36 54.56) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAAC/CAYAAACsXQMuAAAACXBIWXMAABcRAAAXEQHKJvM/AAAEHElEQVR4nO3d247jNgwAUE+T/v8HdxbZl3WhsqRE5TJBgHNekjiybHgki7p4chwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBxHMftj8vleovvx22jy+Wafleln6Wb5ZOdx7uv16f5690n8Gm+v//5z/vr9e9/X4/j+N/rmf78PO53Gt+P27J9s7xjfuz7evcJfIruXXYswDtpq/cx/WhME/f5+vryt+X5umHKKmyp0u3k3dn/3dfr01zffQKfIt6hx/BkDI9m4UoMo7J8Y/6VrNXI8qdHH2FTVgCzvkJUxftVupUs3VgJ2SOObFqFG9Ud+hQrQozvK1m62Ppk56CPsEeLsCmOCp1iga1Ggsa0Z7rqTl59jpUgq1zsURGaOoWtqgDZcGmnoozb4j6rPNij+Wy6XK63WSgStx9Hv1+QqeYf4rGrcxAa7dEi3Km6O58F8yyk4+eusQUZ981ahWp0ij3uGk2xs7zqHD9bVuBjhdFZvp+L1XS5XG/HkfcRqv5DNdfQVaWvZqPH71WEPSbUmqp4P474zCbLdluMWQswpjF/8Dh3jaaxszxbEPdKq5nkseXRIuxxsZput9tttaDu1ZWiWp6RzSv8+vXtb7vBqNEDqjH+Z4cocen36hhCpH0qwoZsGDMOj76iEM6GTKvnIdijImzK5gVijP7KY59mq1hVhn0qQlM1WhMnz8a0r2gdZv2EuI0+w6cPWA1v/tSd2XMIjzOy0DTOLGejND9RELOl3NWaI8One1yspnMeoZpQ+8m5hdliO/MI99FH2BAXwsXJrDHNK1THiCNI7NNHaKr+Y8RqMdwzdfPUV9inRWjqjtSMr6+6O8el2eYRHieObDpXnx7HepXp6NHWYRZyVUssjkNneZeL1ZSNGmUTXM8Mi6o8Z589j3AfF6tpZ9Hd7IGZZ1aSMz+Paj5OZ7kpW/KcfX++P9PMYvdHWw+jRM+js9wUO8HZwru4CjXuG7etHvLpntOpOj5rms+m6sGcUzbDOyuU1ajPStbqZOchNNojNGqaPat8fl8V6mxlaBXWzCrFbMUpjxEabVgV0GrpQ9ZPmC2TiHmP4Vg2qz0ex+K7+2gRNsTZ5BimrDrEnUKahTyzfeKyj/O9yGiPq9WU/RPg1cK3WQswW0HaCX9WrYs+wh4XqymbR5h1WOP21YxzZ+5hVukiFYGXqH4NZ+fXbKrvZ7+qM/uhwlk+775en8Zdo+kMjeKd+p6Rm1Ue1YM/WT4jodH9jBo1nZNVY2HrPB8QX8e0s0521UEe8xhHkAylAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsPIbOr3QXft0qykAAAAASUVORK5CYII="/>
+    </mask>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <rect class="cls-1" x="6.3" y="0" width="4.91" height="17.94" rx=".9" ry=".9"/>
+        <rect class="cls-1" x="6.3" y="0" width="4.91" height="17.94" rx=".9" ry=".9" transform="translate(11.71 -3.21) rotate(57.95)"/>
+        <rect class="cls-1" x="6.3" y="0" width="4.91" height="17.94" rx=".9" ry=".9" transform="translate(20.79 5.46) rotate(118.04)"/>
+      </g>
+      <g class="cls-2">
+        <path class="cls-3" d="M17.03,10.6l-3.38-1.8,3.24-2.03c.42-.26.55-.82.29-1.24l-1.65-2.63c-.26-.42-.82-.55-1.24-.29l-3.08,1.93V.9c0-.5-.4-.9-.9-.9h-3.1c-.5,0-.9.4-.9.9v3.98l-3.51-1.87c-.44-.23-.99-.07-1.22.37L.11,6.12c-.23.44-.07.99.37,1.22l3.38,1.8-3.24,2.03c-.42.26-.55.82-.29,1.24l1.65,2.63c.26.42.82.55,1.24.29l3.08-1.93v3.64c0,.5.4.9.9.9h3.1c.5,0,.9-.4.9-.9v-3.98l3.51,1.87c.44.23.99.07,1.22-.37l1.46-2.74c.23-.44.07-.99-.37-1.22Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
